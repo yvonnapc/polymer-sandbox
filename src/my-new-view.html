@@ -1,5 +1,6 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/paper-slider/paper-slider.html">
+<link rel="import" href="../bower_components/google-map/google-map.html">
 
 <dom-module id="my-new-view">
 
@@ -10,9 +11,13 @@
         display: block;
         padding: 16px;
       }
+      google-map {
+        height: 400px;
+      }
     </style>
     <h1>New view</h1>
     <paper-slider min="-100" max="100" value="50"></paper-slider>
+    <google-map latitude="37.77493" longitude="-122.3892" fit-to-markers></google-map>
   </template>
 
   <!-- Creates the element's prototype and registers it -->
