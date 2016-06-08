@@ -23,51 +23,51 @@
                     cols='[{"label":"Month", "type":"string"}, {"label":"Days", "type":"number"}]'
                     rows='[["Jan", 31],["Feb", 28],["Mar", 31]]'>
             </google-chart>
-            <!--<h2>Here is an example Google Scatter Chart</h2>-->
-            <!--<google-chart-->
-                    <!--type="scatter"-->
-                    <!--options='{"legend": "none"}'-->
-                    <!--data='[["A", "B"],-->
-                           <!--[20, 45],-->
-                           <!--[31, 66],-->
-                           <!--[50, 80],-->
-                           <!--[77, 50],-->
-                           <!--[68, 15]]'>-->
-            <!--</google-chart>-->
-            <!--<h2>Here is an example Google Combo Chart</h2>-->
-            <!--<google-chart-->
-                    <!--type="combo"-->
-                    <!--options='{"seriesType": "bars", "series": {"2": {"type": "line"}}}'-->
-                    <!--data='[["Day", "A", "B", "C"],-->
-                           <!--["Mon", 20, 45, 28],-->
-                           <!--["Tue", 31, 66, 38],-->
-                           <!--["Wed", 50, 80, 55],-->
-                           <!--["Thu", 77, 50, 77],-->
-                           <!--["Fri", 68, 15, 66]]'>-->
-            <!--</google-chart>-->
-            <!--<h2>Here is an example using 'data' as an input instead of 'rows' and 'cols'</h2>-->
-            <!--<p>Note: this makes more sense for how we would structure the data coming from the back-end, imo</p>-->
-            <!--<google-chart-->
-                    <!--type="column"-->
-                    <!--options='{"title": "Inventory"}'-->
-                    <!--data='[["Year", "Things", "Stuff"],-->
-                           <!--["2004", 1000, 400],-->
-                           <!--["2005", 1170, 460],-->
-                           <!--["2006", 660, 1120],-->
-                           <!--["2007", 1030, 540]]'>-->
-            <!--</google-chart>-->
-            <!--<h2>An interesting 'gauge' chart, maybe interesting to use??</h2>-->
-            <!--<google-chart-->
-                    <!--type="gauge"-->
-                    <!--data='[["Label", "Value"],["Memory", 80],["CPU", 55],["Network", 68]]'-->
-                    <!--options='{"width": 400,-->
-                            <!--"height": 120,-->
-                            <!--"redFrom": 90,-->
-                            <!--"redTo": 100,-->
-                            <!--"yellowFrom":75,-->
-                            <!--"yellowTo": 90,-->
-                            <!--"minorTicks": 5}'>-->
-            <!--</google-chart>-->
+            <h2>Here is an example Google Scatter Chart</h2>
+            <google-chart
+                    type="scatter"
+                    options='{"legend": "none"}'
+                    data='[["A", "B"],
+                           [20, 45],
+                           [31, 66],
+                           [50, 80],
+                           [77, 50],
+                           [68, 15]]'>
+            </google-chart>
+            <h2>Here is an example Google Combo Chart</h2>
+            <google-chart
+                    type="combo"
+                    options='{"seriesType": "bars", "series": {"2": {"type": "line"}}}'
+                    data='[["Day", "A", "B", "C"],
+                           ["Mon", 20, 45, 28],
+                           ["Tue", 31, 66, 38],
+                           ["Wed", 50, 80, 55],
+                           ["Thu", 77, 50, 77],
+                           ["Fri", 68, 15, 66]]'>
+            </google-chart>
+            <h2>Here is an example using 'data' as an input instead of 'rows' and 'cols'</h2>
+            <p>Note: this makes more sense for how we would structure the data coming from the back-end, imo</p>
+            <google-chart
+                    type="column"
+                    options='{"title": "Inventory"}'
+                    data='[["Year", "Things", "Stuff"],
+                           ["2004", 1000, 400],
+                           ["2005", 1170, 460],
+                           ["2006", 660, 1120],
+                           ["2007", 1030, 540]]'>
+            </google-chart>
+            <h2>An interesting 'gauge' chart, maybe interesting to use??</h2>
+            <google-chart
+                    type="gauge"
+                    data='[["Label", "Value"],["Memory", 80],["CPU", 55],["Network", 68]]'
+                    options='{"width": 400,
+                            "height": 120,
+                            "redFrom": 90,
+                            "redTo": 100,
+                            "yellowFrom":75,
+                            "yellowTo": 90,
+                            "minorTicks": 5}'>
+            </google-chart>
 
         </div>
     </template>
