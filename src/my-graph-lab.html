@@ -1,6 +1,7 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/google-chart/google-chart.html">
 
-<dom-module id="graph-lab">
+<dom-module id="my-graph-lab">
 
     <!-- Defines the element's style and local DOM -->
     <template>
@@ -15,13 +16,19 @@
         </style>
         <div class="card">
             <h1>Graph Lab</h1>
+            <google-chart
+                    type='pie'
+                    options='{"title": "Distribution of days in 2001Q1"}'
+                    cols='[{"label":"Month", "type":"string"}, {"label":"Days", "type":"number"}]'
+                    rows='[["Jan", 31],["Feb", 28],["Mar", 31]]'>
+            </google-chart>
         </div>
     </template>
 
     <!-- Creates the element's prototype and registers it -->
     <script>
         Polymer({
-            is: 'my-new-view',
+            is: 'my-graph-lab',
             properties: {
                 route: Object
             }

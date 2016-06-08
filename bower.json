@@ -18,7 +18,8 @@
     "polymer": "polymer/polymer#^1.4.0",
     "paper-slider": "PolymerElements/paper-slider#^1.0.11",
     "google-map": "GoogleWebComponents/google-map#^1.1.10",
-    "paper-ripple": "PolymerElements/paper-ripple#^1.0.5"
+    "paper-ripple": "PolymerElements/paper-ripple#^1.0.5",
+    "google-chart": "GoogleWebComponents/google-chart#^1.0.4"
   },
   "devDependencies": {
     "web-component-tester": "^4.0.0"
