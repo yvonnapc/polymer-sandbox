@@ -18,6 +18,9 @@ The PRPL pattern, in a nutshell:
 
 ### Setup
 
+##### NOTES:
+<paper-ripple> cannot lay between the text of a button, if anything is between it, it will not render. Correct example:<br>
+```<paper-item>Click Me<paper-ripple></paper-ripple></paper-item>``` 
 ##### Prerequisites
 
 Install [polymer-cli](https://github.com/Polymer/polymer-cli):
